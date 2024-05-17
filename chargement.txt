@@ -1,0 +1,10 @@
+objet main crée un objet chargeurMagasin
+main appelle la methode chargerMagasin() sur un objet chargem
+chargem crée un objet magasin
+chargem crée un objet ChargeurCD nommée chargeurCD1
+chargeurCD1 appelle la méthode chargerCD()
+chargeurCD1 crée un objet CD nommé cd1 avec les parametres artiste et nomCD
+chargeurCD1 appelle la methode extrairePiste() sur cd1
+cd1 appelle la methode ajoutePiste()
+ajoutePiste() et extrairePiste() se repetent plusieur fois
+une fois toutes les pistes ajoutées chargeurCS1 appelle la methode ajouteCD() sur magasin
